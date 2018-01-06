@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Catcher Wong</Authors>
+    <PackageTags>Nancy,Response,MessagePack</PackageTags>
+    <Description>MessagePack Response for Nancy</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="MessagePack" Version="1.7.3.2" />
+  </ItemGroup>
+</Project>
