@@ -15,10 +15,15 @@
       v0.1.1 Support .NET Framework 4.5.2
       v0.1.0 First publish, Only support netstandard2.0.
     </PackageReleaseNotes>
+    <DisableImplicitFrameworkReferences Condition=" '$(TargetFramework)' == 'net452' ">true</DisableImplicitFrameworkReferences>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
     <PackageReference Include="MessagePack" Version="1.7.3.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <Reference Include="Microsoft.CSharp" />    
   </ItemGroup>
 </Project>
