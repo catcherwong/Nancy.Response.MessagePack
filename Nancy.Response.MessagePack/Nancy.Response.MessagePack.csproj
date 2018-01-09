@@ -1,11 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>0.1.0</PackageVersion>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <PackageVersion>0.1.1</PackageVersion>
     <Authors>Catcher Wong</Authors>
-    <PackageTags>Nancy,Response,MessagePack</PackageTags>
+    <Owners>Catcher Wong</Owners>    
+    <PackageTags>Nancy,Response,MessagePack,MsgPack</PackageTags>
     <Description>MessagePack Response for Nancy</Description>
+    <PackageProjectUrl>https://github.com/catcherwong/Nancy.Response.MessagePack</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/catcherwong/Nancy.Response.MessagePack/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/catcherwong/Nancy.Response.MessagePack</RepositoryUrl>
+    <ProjectUrl>https://github.com/catcherwong/Nancy.Response.MessagePack</ProjectUrl>
+    <PackageReleaseNotes>
+      v0.1.1 Support .NET Framework 4.5.2
+      v0.1.0 First publish, Only support netstandard2.0.
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
